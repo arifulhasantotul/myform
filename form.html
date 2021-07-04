@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bootstrap4 Form</h1>
+        <form class="text-dark bg-mute col-lg-4 col-md-6 col-sm-8 col-8 was-validated">
+            <div class="form-group">
+                <label for="user">Username</label>
+                <input type="text" id="user" class="form-control bg-dark text-light" placeholder="Full Name" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" class="form-control bg-dark text-light" placeholder="Passcode" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input for="email" id="email" class="form-control bg-dark text-light" placeholder="Gmail" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                <label for="rmbr">Remember Me</label>
+                <input type="checkbox" id="rembr">
+            </div>
+            <div class="form-group">
+                <label for="agree">I accpet Terms and Conditions</label>
+                <input type="checkbox" id="agree" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <a href="#" class="btn btn-success">Submit</a>
+            <a href="#" class="btn btn-danger">Cancel</a>
+            <a href="#" class="btn btn-warning">Submit</a>
+        </form>
+    </div>
+    
+</body>
+</html>
